@@ -1,0 +1,87 @@
+.wrapper {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  position: relative;
+}
+
+.formFields {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.taskForm {
+  position: absolute;
+  top: -25px;
+  width: 100%;
+}
+
+.formInput {
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem;
+
+  width: 88%;
+  background: var(--gray-500);
+  color: var(--gray-200);
+}
+
+.button {
+  border: none;
+  border-radius: 8px;
+  width: 5rem;
+  height: 3.1rem;
+  background: var(--blue-dark);
+  color: var(--white);
+  padding-bottom: 4px;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: var(--blue);
+}
+
+.tasksList {
+  position: absolute;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.counters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tasksQuantities {
+  background: var(--gray-400);
+  color: var(--white);
+  padding: 0.2rem 0.8rem;
+  border-radius: 16px;
+}
+
+.counterLabelCreated {
+  font-weight: bold;
+  color: var(--blue);
+  margin-right: 1rem;
+}
+
+.counterLabelCompleted {
+  font-weight: bold;
+  color: var(--purple);
+  margin-right: 1rem;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
