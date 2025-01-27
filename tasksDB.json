@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Complete TypeScript tutorial",
+      "isCompleted": true
+    },
+    {
+      "id": 2,
+      "title": "Update project dependencies",
+      "isCompleted": false
+    },
+    {
+      "id": 3,
+      "title": "Write unit tests for API endpoints",
+      "isCompleted": false
+    },
+    {
+      "id": 4,
+      "title": "Review team pull requests",
+      "isCompleted": true
+    },
+    {
+      "id": 5,
+      "title": "Prepare presentation slides",
+      "isCompleted": false
+    },
+    {
+      "id": 6,
+      "title": "Organize project files",
+      "isCompleted": true
+    },
+    {
+      "id": 7,
+      "title": "Optimize database queries",
+      "isCompleted": false
+    },
+    {
+      "id": 8,
+      "title": "Schedule a team meeting",
+      "isCompleted": true
+    }
+  ]
+}

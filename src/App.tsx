@@ -6,24 +6,9 @@ import { Task, TaskType } from "./components/Task";
 import { useState } from "react";
 import { Empty } from "./components/Empty";
 
-const responseTasks: TaskType[] = [
-  {
-    id: 1,
-    title: "Learn how to create custom checkboxes and radio buttons with CSS.",
-    isCompleted: true,
-  },
-  {
-    id: 2,
-    title: "The checkbox is shown as a square box that is ticked (checked) when activated",
-    isCompleted: false,
-  },
-  {
-    id: 3,
-    title:
-      "Forms commonly use checkboxes for questions that may have more than one answer. For example, here's a checkbox with the option of tacos.",
-    isCompleted: false,
-  },
-];
+import tasksDB from "../tasksDB.json";
+
+const responseTasks: TaskType[] = tasksDB.tasks;
 
 export function App() {
   const [tasks, setTasks] = useState(responseTasks);
