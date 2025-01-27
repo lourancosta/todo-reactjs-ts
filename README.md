@@ -23,8 +23,8 @@ This application is aimed at helping users organize and manage their daily tasks
 
 ### Home Screen
 
-![Home Screen](./assets/screenshot/home-with-tasks.png)
-![Home Screen](./assets/screenshot/home-without-tasks.png)
+![Home Screen](./src/assets/screenshot/home-with-tasks.png)
+![Home Screen](./src/assets/screenshot/home-without-tasks.png)
 
 **Description:**
 
