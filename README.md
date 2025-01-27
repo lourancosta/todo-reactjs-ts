@@ -1,50 +1,51 @@
-# React + TypeScript + Vite
+# 🚀 ToDo Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and user-friendly ToDo app designed to help users manage their daily tasks efficiently.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Key Features
 
-## Expanding the ESLint configuration
+- **Add Tasks:** Quickly add new tasks to your ToDo list.
+- **Mark as Completed:** Mark tasks as completed to keep track of progress.
+- **Delete Tasks:** Remove tasks that are no longer needed.
+- **Real-Time Updates:** Displays the number of created and completed tasks dynamically.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 🎯 Purpose
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+This application is aimed at helping users organize and manage their daily tasks effectively by providing an intuitive interface for task management.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🖼️ Screenshots
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Home Screen
+
+![Home Screen](./assets/screenshot/home-with-tasks.png)
+![Home Screen](./assets/screenshot/home-without-tasks.png)
+
+**Description:**
+
+- A minimalistic design with a dark mode theme.
+- Tasks are grouped into "Created" and "Done" categories, allowing users to view progress at a glance.
+- Tasks can be added via the input box and the "Add" button.
+- Completed tasks are displayed with a strikethrough for clear differentiation.
+
+---
+
+## 🚀 How to Use
+
+1. **Adding a Task:**
+   - Enter a task in the input box.
+   - Click the **"Add"** button to add it to the list.
+2. **Marking as Completed:**
+
+   - Click on the checkbox next to a task to mark it as completed.
+   - Completed tasks will appear with a strikethrough.
+
+3. **Deleting a Task:**
+   - Click the **trash icon** next to a task to remove it.
+
+---
